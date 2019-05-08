@@ -65,10 +65,11 @@
 }
 .menu ul li:hover {
   background-color: #5eb762;
+  transition: 0.3s;
 }
 .menu--open {
   transition: 0.7s;
-  width: 250px;
+  width: 350px;
   height: 100%;
 }
 .articles {
@@ -84,6 +85,7 @@
   height: 50px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
+  transition: 0.7s;
 }
 .article h2 {
   font-size: 28px;
@@ -113,6 +115,7 @@
 }
 .article-open {
   height: 400px;
+  transition: 0.7s;
 }
 .article-close {
   display: none;
